@@ -2,8 +2,8 @@ import React from "react";
 
 const MovieThumb = props => {
   return (
-    <div>
-      <h1>MovieThumb</h1>
+    <div className="rmdb-moviethumb">
+      <img src={props.image} alt="moviethumb" />
     </div>
   );
 };
